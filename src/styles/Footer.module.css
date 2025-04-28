@@ -1,0 +1,61 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  padding: 12px 0;
+  width: 395px;
+  position: fixed;
+  top: 650px;
+  margin-left: -20px;
+  overflow: hidden;
+}
+
+/* Dark footer background */
+.darkFooter {
+  background-color: #1d1f24;
+}
+
+/* Icon base styles */
+.icon {
+  font-size: 24px;
+  color: #121212;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.2s ease, color 0.2s ease;
+  padding: 8px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+/* Active icon */
+.icon.active {
+  background-color: #b3d1ff;
+  color: #3643FB;
+  transform: scale(1.1);
+}
+
+/* Plus Icon */
+.plusIcon {
+  color: #3643FB;
+}
+
+/* Dark mode icons */
+.darkIcon {
+  color: #D1F462;
+}
+
+/* When hovered in dark mode */
+.darkIcon:hover {
+  background-color: rgba(209, 244, 98, 0.2); /* lighter transparent background */
+}
+
+/* Active icon in dark mode */
+.darkIcon.active {
+  background-color: rgba(209, 244, 98, 0.3); /* slightly stronger shade */
+  color: #D1F462;
+  transform: scale(1.1);
+}

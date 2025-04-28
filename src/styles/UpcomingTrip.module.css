@@ -1,0 +1,100 @@
+/* UpcomingTrip.module.css */
+  
+  .left {
+    text-align: left;
+  }
+  
+  h1 {
+    font-size: 18px;
+    font-weight: bold;
+    color: inherit;
+  }
+  
+  .imageContainer {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+  }
+  
+  .tripImage {
+    width: 353px;
+    height: 330px;
+    border-radius: 8px;
+  }
+  
+  .tripDetails {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+  }
+  
+  .tripDetails h2 {
+    font-size: 46px;
+    font-weight: 900;
+    margin: 0;
+  }
+  
+  .tripDetails p {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  
+  .errorIcon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .errorIcon:hover {
+    color: black;
+  }
+  .infoContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -80px;
+    color: white;
+  }
+  
+  .infoItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+
+  .iconCircle {
+    width: 30px;
+    height: 30px;
+    background-color: #1e1e1e;
+    color: #D1F462;
+    font-size: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .iconWithText {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 5px;
+  }
+  
+  .mainText {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .subText {
+    font-size: 12px;
+    text-align: right;
+    color: white;
+    font-weight: 700;
+  }

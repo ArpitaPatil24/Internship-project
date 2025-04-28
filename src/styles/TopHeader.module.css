@@ -1,0 +1,40 @@
+/* Top Header styles */
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: transparent; /* depends on theme */
+    color: inherit; /* This will inherit the text color from light or dark theme */
+    font-size: 14px;
+  }
+  
+  /* Light theme */
+  .light .top-header {
+    background-color: #ffffff; /* light background */
+    color: #1e1e1e; /* dark text color */
+  }
+  
+  /* Dark theme */
+  .dark .top-header {
+    background-color: #1e1e1e; /* dark background */
+    color: #ffffff; /* light text color */
+  }
+  
+  .time {
+    font-weight: bold;
+  }
+  
+  .internet-status {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .theme-toggle-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+  }
+  

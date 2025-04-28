@@ -1,0 +1,159 @@
+/* Light theme */
+.light .input-label {
+  color: #1e1e1e; /* Dark text color for light theme */
+}
+
+.light .input-field,
+.light .input-select {
+  background-color: #ffffff; /* Light background */
+  color: #333; /* Dark text color */
+  border: 2px solid #333; /* Black border for input fields */
+}
+
+.light .input-icon {
+  color: #1e1e1e; /* Dark icon color */
+}
+
+.light .travel-option-btn {
+  background-color: transparent; /* White background for buttons */
+  color: #333 ;/* Dark text color */
+  border: 2px solid #333;
+ 
+}
+ .light .travel-options{
+    background-color: transparent; /* Light background */
+    color: #333; /* Dark text color */
+    border: 2px solid #333;
+}
+
+.light .travel-option-btn:hover {
+  background-color: #f5f5f5; /* Light hover effect */
+}
+
+.light .travel-option-btn.selected {
+  background-color: #4040FF; /* Highlight selected option with a blue color */
+  color: white; /* White text for selected button */
+  border: 2px solid #fff;
+}
+
+.light .travel-option-btn.selected:hover {
+  background-color: #3333cc; /* Darken slightly on hover */
+}
+
+/* Dark theme */
+.dark .input-label {
+  color: #F5F5F5; /* Light text color for dark theme */
+}
+
+.dark .input-field,
+.dark .input-select {
+  background-color: #333; /* Dark background */
+  color: white; /* Light text color */
+}
+
+.dark .input-icon {
+  color: white; /* Light icon color */
+}
+
+.dark .travel-option-btn {
+  background-color: #333; /* Dark background for buttons */
+  color: white; /* Light text for buttons */
+}
+
+.dark .travel-option-btn:hover {
+  background-color: #444; /* Dark hover effect */
+}
+
+.dark .travel-option-btn.selected {
+  background-color: #4040FF; /* Highlight selected option with a blue color */
+  color: white; /* White text for selected button */
+  border: 2px solid #fff;
+}
+
+.dark .travel-option-btn.selected:hover {
+  background-color: #3333cc; /* Darken slightly on hover */
+}
+
+/* General styles */
+.input-group {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.input-label {
+  display: block;
+  margin-bottom: 8px;
+  letter-spacing: 0%;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.input-field {
+  width: 303px;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  padding-left: 40px; /* Adjusted to make room for the icon */
+}
+
+.input-select {
+  width: 353px;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  padding-left: 40px; /* Adjusted to make room for the icon */
+}
+
+.input-icon {
+  position: absolute;
+  top: 72%;
+  font-weight: 900;
+  left: 12px;
+  transform: translateY(-50%);
+  font-size: 20px;
+}
+
+.traveling-with label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.travel-options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 30px;
+  width: 353px;
+}
+
+.travel-option-btn {
+  background-color: #333;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px; /* Adds space between the icon and text */
+}
+
+.travel-option-btn:hover {
+  background-color: #444;
+}
+
+.travel-option-btn.selected {
+  background-color: #4040FF; /* Change to any color that highlights selection */
+  border: 2px solid #fff; /* Add a border to indicate selection */
+  transform: scale(1.05); /* Slightly enlarge the selected button */
+}
+
+.travel-option-btn.selected:hover {
+  background-color: #3333cc; /* Darken the color slightly on hover */
+}

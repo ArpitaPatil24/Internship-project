@@ -1,0 +1,78 @@
+.flightContainer {
+    background-color: #3643FB;
+    height: 124px !important;
+    border-radius: 12px;
+    padding: 12px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .seeAll {
+    font-size: 14px;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 700;
+    margin: 0;
+    color: #D1F462;
+  }
+  
+  .dateTime {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 4px;
+  }
+  
+  .flightInfo {
+    margin-top: 48px;
+  }
+
+  .flight{
+    background-color: #313DDF;
+    padding: 6px;
+    border-radius: 12px;
+  }
+  
+  .codes {
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+    gap: 30px;
+    text-align: left;
+    margin: 0;
+    margin-top: -20px;
+  }
+  
+  .route {
+    display: flex;
+    font-size: 14px;
+    gap: 10px;
+    margin-bottom: 6px;
+  }
+  
+  .arrow {
+    font-size: 16px;
+    margin: 0 8px;
+  }
+  
+  .planImage{
+    height: 400px;
+    width: 400px;
+    transform: scaleX(-1);
+    margin-left: 110px;
+    margin-top: -170px;
+  }

@@ -1,0 +1,254 @@
+.activitiesContainer {
+  margin-top: -30px;
+  width: 353px;
+  height: 114px;
+}
+
+.main {
+  border: 2px solid #A6A6A6;
+  padding: 12px;
+  border-radius: 12px;
+}
+
+/* Header Styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.seeAll {
+  font-size: 14px;
+  color: #3643FB;
+  cursor: pointer;
+}
+
+/* Options for Day Plan and Activities */
+.options {
+  display: flex;
+  justify-content: flex-start; /* keep options to left */
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.option {
+  background-color: #f0f0f0;
+  padding: 4px; /* Adjusted padding */
+  border: 0.5px solid #313ddf;
+  color: #313ddf;
+  font-size: 16px;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  white-space: nowrap; /* prevent breaking into multiple lines */
+}
+
+/* ACTIVE BUTTON style */
+.activeOption {
+  background-color: #313ddf;
+  color: white;
+}
+
+.option:hover {
+  background-color: #dbe2ff;
+}
+
+/* Date Row */
+.dateRow {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none;  /* For Internet Explorer and Edge */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.dateRow::-webkit-scrollbar {
+  display: none;
+}
+
+.dateItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #E5E5E5;
+  padding: 4px 8px 4px 8px;
+  border-radius: 12px;
+  min-width: 50px;
+  position: relative;
+  cursor: pointer;
+  border: 1px solid #A6A6A6;
+  transition: 0.3s;
+}
+
+.wideDateItem {
+  min-width: 80px;
+}
+
+.dateWithMonth {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.monthLabel {
+  background-color: #a6a6a6;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 9px 12px;
+  border-radius: 6px;
+  transform: rotate(-90deg);
+  white-space: nowrap;
+  margin-left: -29px;
+  transition: 0.3s;
+}
+
+.activeMonthLabel {
+  background-color: #3643FB;
+  color: white;
+}
+
+.dayContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dayName {
+  font-size: 14px;
+  color: #A6A6A6;
+}
+
+.dayNumber {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 5px;
+  color: #A6A6A6;
+}
+
+.activeDateItem {
+  background-color: #fff;
+  border: 2px solid #3643FB;
+}
+
+.activeDateItem .dayName,
+.activeDateItem .dayNumber {
+  color: #3643FB;
+}
+
+.activity-container {
+  display: flex;
+  justify-content: flex-start; /* keep options to left */
+  margin-left: -15px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: transparent;
+  color: black;
+}
+
+.day-info {
+  font-size: 14px;
+  background-color: #3643FB;
+  color: white;
+  padding: 4px 8px 4px 8px;
+  border-radius: 8px;
+}
+
+.activity-info {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 16px;
+  color: #313ddf;
+}
+
+.hiking-symbol {
+  margin-right: 10px;
+  font-size: 22px;
+}
+
+.activity-text {
+  font-size: 16px;
+}
+
+.activity-text strong {
+  font-weight: bold;
+}
+
+/* Dark Mode Styles */
+.dark .activitiesContainer {
+  background-color: #333;
+  color: #fff;
+}
+
+.dark .activeMonthLabel{
+  background-color: #D3F462;
+  color: black;
+}
+
+.dark .header h2 {
+  color: #fff;
+}
+
+.dark .seeAll {
+  color: #D3F462; /* Changed blue color to green for dark mode */
+}
+
+.dark .main {
+  background-color: #444;
+  border-color: #555;
+}
+
+.dark .option {
+  background-color: #555;
+  border-color: #555;
+  color: #D3F462; /* Changed blue color to green for dark mode */
+}
+
+.dark .activeOption {
+  background-color: #D3F462; /* Green background */
+  color: #333;
+}
+
+.dark .option:hover {
+  background-color: #777;
+}
+
+.dark .dateItem {
+  background-color: #292929;
+  border-color: #555;
+}
+
+
+.dark .activeDateItem {
+  background-color: #555;
+  border-color: #D3F462; /* Green border for active date */
+}
+
+.dark .activeDateItem .dayName,
+.dark .activeDateItem .dayNumber {
+  color: white; /* Green color for active date */
+}
+
+
+.dark .day-info {
+  background-color: #D3F462; /* Green background for day info */
+  color: black;
+}
+
+.dark .activity-info {
+  color: #D3F462; /* Green text color */
+}
+
+.dark .activity-text {
+  color: #D3F462; /* Green text color for activity */
+}

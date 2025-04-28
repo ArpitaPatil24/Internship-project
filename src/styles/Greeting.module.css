@@ -1,0 +1,87 @@
+/* Font Face */
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../assets/Montserrat/static/Montserrat-Regular.ttf') format('truetype');
+  }
+  
+  /* Base Body Styling */
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    transition: background-color 0.4s ease, color 0.4s ease;
+  }
+
+/* Light Theme */
+.light {
+    background: linear-gradient(to bottom right, #eaead8 ,  #bcd7ed); /* Smooth transition from light yellow to light blue */
+    color: #1e1e1e; /* Dark text color */
+  }
+  
+  /* Dark Theme */
+  .dark {
+    background-color: #1e1e1e;
+    color: #ffffff;
+  }
+  
+  /* Left Side - Positioning 'Hello Chhavi' and 'Ready for the trip?' */
+  .left {
+    position: absolute;
+    top: 120px;
+    color: inherit; /* Inherit text color from parent */
+  }
+  
+  .left h1 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .left p {
+    margin: 5px 0;
+    font-size: 18px;
+    color: inherit; /* Inherit text color from parent */
+  }
+  
+  /* Right Side - Positioning 'C' with an orange circular background */
+  .right {
+    position: absolute;
+    top: 120px;
+    right: 580px;
+  }
+  
+  .circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: orange;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+  
+  /* Button Styling */
+  .continueButton {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #4040FF;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .continueButton:hover {
+    background-color: #3333cc;
+  }
+  
+  .light .left{
+    color: #1e1e1e;
+  }

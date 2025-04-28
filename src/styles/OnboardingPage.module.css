@@ -1,0 +1,69 @@
+/* Import your fonts here */
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../assets/Montserrat/static/Montserrat-Regular.ttf') format('truetype');
+}
+
+body {
+  background-color: #00000081; /* dark background */
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.onboarding-container {
+  background-color: #000000; /* dark background */
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  max-width: 355px;
+  height: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: left;
+  transition: background-color 0.4s ease, color 0.4s ease; /* smooth transition */
+
+}
+
+.onboarding-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.onboarding-subtitle {
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+.continue-button {
+  width: 353px;
+  height: 44px;
+  background-color: #3643FB; /* pick color from color palette */
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 180px;
+}
+
+.continue-button:hover {
+  background-color: #3333cc;
+}
+/* Light Theme */
+.light {
+  background: linear-gradient(to bottom right, #eaead8 ,  #bcd7ed); /* Smooth transition from light yellow to light blue */
+  color: #000000; /* Dark text color */
+}
+
+/* Dark Theme */
+.dark {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}

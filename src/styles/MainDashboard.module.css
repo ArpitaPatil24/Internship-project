@@ -1,0 +1,47 @@
+/* Import your fonts here */
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../assets/Montserrat/static/Montserrat-Regular.ttf') format('truetype');
+  }
+  
+  body {
+    background-color: #00000081; /* dark background */
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  /* Stop horizontal scroll */
+body, html {
+  overflow-x: hidden;
+}
+
+  
+.dashboard-container{
+    background-color: #1e1e1e; /* dark background */
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 355px;
+    height: 2000px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Stack one component after the other vertically */
+    gap: 50px; /* add space between Greeting and UpcomingTrip */
+    text-align: left;
+    transition: background-color 0.4s ease, color 0.4s ease; /* smooth transition */
+    overflow-y: auto;
+    flex-grow: 1; /* Allow the content area to grow and take available space */
+}
+/* Light Theme */
+.light {
+    background: linear-gradient(to bottom right, #eaead8 ,  #bcd7ed); /* Smooth transition from light yellow to light blue */
+    color: #000000; /* Dark text color */
+  }
+  
+  /* Dark Theme */
+  .dark {
+    background-color: #1e1e1e;
+    color: #ffffff;
+  }
+  
