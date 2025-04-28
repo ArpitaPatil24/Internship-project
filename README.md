@@ -78,7 +78,7 @@ Version Control: Git, GitHub
 
 Installation and Setup
 Clone the repository:
-git clone https://github.com/your-username/internship-project.git
+git clone https://github.com/ArpitaPatil24/Internship-project.git
 
 Navigate to the project folder:
 cd internship-project
