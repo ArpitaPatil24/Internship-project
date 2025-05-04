@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import Greeting from '../components/Greeting';
 import styles from "../styles/MainDashboard.module.css";
 import TopHeader from '../components/TopHeader';
-import UpcomingTrip from '../components/UpComingTrip';
+import UpcomingTrip from '../components/UpcomingTrip';
 import FlightDetails from '../components/FlightDetails';
 import Footer from '../components/Footer';
 import Accommodation from '../components/Accommodation';
